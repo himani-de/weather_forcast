@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome To The Weather Report</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body style="background: #000;">
+ <div class="Home"style="height:700px">
+	<h3>Weather Forecast Berlin</h3>
+     <div style="overflow:scroll;overflow-y:scroll,;overflow-x:scroll;padding-bottom:10px;height:700px;width:1400px">
+{% for table in tables %}
+            {{ table|safe }}
+{% endfor %}
+     </div>
+    <br>
+    <br>
+</div>
+</body>
+</html>
