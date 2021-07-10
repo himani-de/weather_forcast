@@ -6,7 +6,7 @@ from weather_main import *
 app = Flask(__name__)
 
 weather_df = combined_df
-api_df = combined_df
+
 """
 render the html page
 """
@@ -19,7 +19,7 @@ render the json data
 """
 @app.route('/api')
 def api_table():
-    return Response(api_df.to_json(orient="records"), mimetype='application/json')
+    return Response(weather_df.to_json(orient="records"), mimetype='application/json')
 
 
 if __name__ == "__main__":
