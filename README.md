@@ -9,7 +9,7 @@
 6. [Output](#Output)
 7. [Notes](#Notes)
 
-#### Overview
+### Overview
 Who am I ! I am an weather forecaster application where you can check the weather data of today and plan your day accordingly.
 I provide not only the basic parameters like temperature, rain forecast but more than that like humidity, uv index, maximum and minimum temperature etc so that you have a better idea about 
 how the day is going to be.
@@ -52,17 +52,17 @@ how the day is going to be.
 - requiremets.txt: It has all the libraries which we have used in creating this app.
 - README.md: Deatiled information about the app.
 
-#### Output
+### Output
 ![Output](img/Output.png)
 
-#### Notes
+### Notes
 - This app provides data of present day:
 - The weatherstack.com api provides the data of current time.
 - The open weather api gives the data of every 3 hours of the day starting from 12 am to 9 pm.
 - In order to access the json data use this api using "$machine_ip:9090/api"
 - The api keys are stored in .env file and are encrypted using git-secret.
 
-#### Limitation
+### Limitation
 This code has been tested on following operating systems.
  * MacOS 11.4
 
