@@ -53,7 +53,7 @@ how the day is going to be.
 - README.md: Deatiled information about the app.
 
 #### Output
-![Output](img/Output.png)
+![Output](https://github.com/himani-de/weather_forcast/blob/main/img/output.png)
 
 #### Notes
 - This app provides data of present day:
