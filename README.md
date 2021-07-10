@@ -4,8 +4,8 @@
 1. [Overview](#Overview)
 2. [Design-Overview](#Design-Overview)
 3. [Usage](#Usage)
-4. [Project-layout](#Project layout)
-5. [Project-Details](#Project Details)
+4. [Project-layout](#Project-layout)
+5. [Project-Details](#Project-Details)
 6. [Output](#Output)
 7. [Notes](#Notes)
 
